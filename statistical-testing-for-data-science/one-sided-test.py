@@ -1,0 +1,1 @@
+Ttest_lsamp(solar_data['efficiency'], 14, alternative='greater')

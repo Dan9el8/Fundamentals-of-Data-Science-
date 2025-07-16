@@ -1,0 +1,12 @@
+In the preceding example, we first open a file called textfile.txt in
+"read" mode. The file argument provides the path to the file. We have
+given a "relative" path in the preceding snippet, meaning it looks for
+textfile.txt in the current directory in which we are running this Python
+code. We can also provide an "absolute" path with the full file path, with the
+syntax file=r'C:\Users\username\Documents\textfile.txt' . Notice we
+prefix the absolute path string with r , just like we saw in the previous
+chapter. The r instructs Python to interpret the strings as a "raw" string,
+and means all characters are interpreted literally. Without the r, the
+backslash is part of special characters, like the \n newline character
+sequence.
+The second argument
